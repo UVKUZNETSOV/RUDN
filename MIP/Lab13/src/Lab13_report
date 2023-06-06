@@ -1,0 +1,86 @@
+CPN Tools state space report for:
+//Mac/Home/Desktop/RUDN/MIP/Lab13/Lab13.cpn
+Report generated: Sat Jun  3 22:33:12 2023
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  5
+     Arcs:   10
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  1
+     Arcs:   0
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     Execution'P1 1          1          1
+     Execution'P2 1          1          0
+     Execution'P3 1          1          0
+     Execution'P4 1          1          0
+     Execution'P5 1          1          0
+     Execution'P6 1          1          0
+
+  Best Upper Multi-set Bounds
+     Execution'P1 1      1`RAM
+     Execution'P2 1      1`B1
+     Execution'P3 1      1`B2
+     Execution'P4 1      1`B1
+     Execution'P5 1      1`B1
+     Execution'P6 1      1`(B1,B2)
+
+  Best Lower Multi-set Bounds
+     Execution'P1 1      1`RAM
+     Execution'P2 1      empty
+     Execution'P3 1      empty
+     Execution'P4 1      empty
+     Execution'P5 1      empty
+     Execution'P6 1      empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     All
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     None
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     All
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     None
+
+  Fair Transition Instances
+     Execution'T6 1
+
+  Just Transition Instances
+     Execution'T5 1
+
+  Transition Instances with No Fairness
+     Execution'T1 1
+     Execution'T2 1
+     Execution'T3 1
+     Execution'T4 1
