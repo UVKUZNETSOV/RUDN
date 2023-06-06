@@ -1,3 +1,3 @@
 ---
-### Modeling of information processes
+### Моделирование информационных процессов
 ---
